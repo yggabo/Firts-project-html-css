@@ -1,0 +1,54 @@
+
+    /*  reset code  */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+   /*   page code*/
+
+    header, nav, main,footer  {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    header { 
+        min-height: 8rem;
+        background-color: blue;
+    }
+
+    nav {
+        min-height: 4rem;
+        background-color: red;
+        }
+
+    main {
+        min-height: 20rem;
+        background-color: cyan;
+        display: flex;                  /* Elementos en columnas */
+        flex-wrap: wrap;                /* Elementos en fila */
+        justify-content: space-around;  /*  Espacios entre los elementos y el borde */
+        }
+
+    main div {
+        border: 0.3rem solid black;
+        width: 30%;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: x-large;
+    }
+
+    .left {
+        background-color: yellowgreen;
+        }
+
+    .right {
+        background-color: rosybrown;
+    }
+
+
+
+
+    footer {
+        min-height: 7rem;
+        background-color: purple;
+    }
