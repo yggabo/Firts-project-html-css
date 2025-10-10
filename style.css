@@ -47,7 +47,7 @@
 
     main {
         min-height: 20rem;
-        background-color: cyan;
+        background-color: yellow;
         display: flex;                  /* Elementos en columnas */
         flex-wrap: wrap;                /* Elementos en fila */
         /* justify-content: space-around;    Espacios entre los elementos y el borde */
@@ -61,12 +61,16 @@
         font-size: x-large;
     }
 
+    main>div:hover {
+    transform: scale(1.05);
+    }
+
     .left {
         background-color: yellowgreen;
         }
 
     .right {
-        background-color: rosybrown;
+        background-color: cornflowerblue;
     }
 
     footer {
