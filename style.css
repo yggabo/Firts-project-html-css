@@ -3,15 +3,25 @@
         *{
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
         }
 
    /*   page code*/
 
+   /* Asegura que html y body ocupen toda la pantalla */
+    html, body {
+        height: 100%;
+        }
+
    body {
         font-family: 'Poppins', sans-serif;     /*  estilo de letra */
-        background-color: #ffffff;
         color: #333;    /* color de la letra del contenid  */
         line-height: 1.6; 
+        background-image: url('img/fondo1.png');
+        background-size: cover;        /* La imagen cubre toda la pantalla */
+        background-position: center;   /* Centrada */
+        background-repeat: no-repeat;  /* Evita repeticiones */
+        background-attachment: fixed;
         }
 
     header, nav, main,footer  {
@@ -51,7 +61,6 @@
         display: flex;                  /* Elementos en columnas */
         flex-wrap: wrap;                /* Elementos en fila */
         justify-content: space-around; 
-
         margin: 1rem auto; 
         }
 
@@ -67,7 +76,7 @@
         font-size: x-large;
     }
 
-    main>div:hover {
+    main>img:hover {
     transform: scale(1.05);
     }
 
