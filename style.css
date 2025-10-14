@@ -17,11 +17,12 @@
         font-family: 'Poppins', sans-serif;     /*  estilo de letra */
         color: #333;    /* color de la letra del contenid  */
         line-height: 1.6; 
-        background-image: url('img/fondo1.png');
+        background-image: url('img/Anime.jpg');
         background-size: cover;        /* La imagen cubre toda la pantalla */
         background-position: center;   /* Centrada */
         background-repeat: no-repeat;  /* Evita repeticiones */
         background-attachment: fixed;
+
         }
 
     header, nav, main,footer  {
@@ -32,7 +33,7 @@
 
     header { 
         min-height: 8rem;
-        background-color: #4f46e5;
+        background-color: #5f5ca1;
         color: white;
         text-align: center;
         padding: 2rem 0;        /*  relleno por dentro  */
@@ -46,7 +47,7 @@
 
     nav {
         min-height: 4rem;
-        background-color: red;
+        background-color: rgb(159, 50, 159);
         margin: 1rem auto; 
         color: white;
         text-align: center;
@@ -57,7 +58,7 @@
 
     main {
         min-height: 20rem;
-        background-color: yellow;
+        background-color: pink;
         display: flex;                  /* Elementos en columnas */
         flex-wrap: wrap;                /* Elementos en fila */
         justify-content: space-around; 
@@ -70,11 +71,11 @@
         border-radius: 1em;
         }
 
-    main div {
+    /* main div {
         border: 0.2rem solid black;
         width: 30%;
         font-size: x-large;
-    }
+    } */
 
     main>img:hover {
     transform: scale(1.05);
@@ -90,7 +91,7 @@
 
     footer {
         min-height: 7rem;
-        background-color: purple;
+        background-color:rgb(24, 123, 140);
         color: white;
         text-align: center;
         padding: 1rem 0;
