@@ -46,35 +46,39 @@
                 header {
                     margin-top: 13rem;
                 }
+                main {
+                    /* display: flex; 
+                    flex-direction:row; */
+                }
+                .content {
+                    width: 60%;
+                    min-height: 20rem;
+                    background-color: tomato;
+                }
+                aside {
+                    width: 40%;
+                    min-height: 20rem;
+                    background-color: teal;
+                }
            </style> 
     </header>
     <main>
-        <img src="img/bizkaia_2.jpg" alt="foto bizkaia" title="images1">
-        <img src="img/bizkaia_1.jpg" alt="foto bizkaia" title="images2">
-        <img src="img/bizkaia_3.jpg" alt="foto bizkaia" title="images3">
-        <img src="img/bizkaia_4.jpg" alt="foto bizkaia" title="images4">
-        <img src="img/bizkaia_5.jpg" alt="foto bizkaia" title="images5">
-        <img src="img/bizkaia_6.jpeg" alt="foto bizkaia" title="images6">
-        <img src="img/bizkaia_7.jpg" alt="foto bizkaia" title="images7">
-        
-<!--
-        <div class="left">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique consectetur praesentium autem amet perspiciatis fugiat voluptatem perferendis provident quo error sit tenetur quae, odit molestias libero dignissimos esse quidem eveniet.
+        <div class="content">
+            <form action="recopilation-data.php" method="get">
+                <p>name</p>
+                    <input id="input1" type="text" name="name" placeholder="type u name" required>
+                <p>displacement</p>
+                    <input type="text" name="displacement" value="metro">
+                <p>password</p>
+                 <input type="password">
+                <br>
+                 <button type="submit">send</button>
+
+            </form>
         </div>
-        <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique consectetur praesentium autem amet perspiciatis fugiat voluptatem perferendis provident quo error sit tenetur quae, odit molestias libero dignissimos esse quidem eveniet.
-        </div>
-        <div class="right">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique consectetur praesentium autem amet perspiciatis fugiat voluptatem perferendis provident quo error sit tenetur quae, odit molestias libero dignissimos esse quidem eveniet.
-        </div>
-         <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique consectetur praesentium autem amet perspiciatis fugiat voluptatem perferendis provident quo error sit tenetur quae, odit molestias libero dignissimos esse quidem eveniet.
-        </div>
-         <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique consectetur praesentium autem amet perspiciatis fugiat voluptatem perferendis provident quo error sit tenetur quae, odit molestias libero dignissimos esse quidem eveniet.
-        </div>
-    -->
-     
+        <aside>
+
+        </aside>
     </main>
              <footer>
                 <h2>Footer</h2>
